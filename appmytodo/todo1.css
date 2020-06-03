@@ -1,0 +1,172 @@
+body{
+	background-image: url("img.jpg");
+	background-size: 1080px 720px;
+}
+
+.h1{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-shadow: 2px 2px #FF0000;
+    font-size: 50px;
+}
+.div1{
+	text-align: center;
+}
+
+#todo1{
+	text-align: center;
+	color:#fff;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(0,0,25,0.1);
+    border: 0;
+    width: 40%; 
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-size: 23px;
+    font-weight: normal;
+
+}
+#todo2, #todo3{
+	text-align: center;
+	color:#fff;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(0,0,25,0.1);
+    border: 0;
+    width: 18%; 
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    font-size: 23px;
+}
+.div1{
+	text-align: center;
+	
+}
+
+.btn1, .btn2{
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #60a3bc;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	width: 08%;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+	
+}
+
+.btn2{
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #60a3bc;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	width: 08%;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+	margin-left: 15%;
+}
+
+.btn3{
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background:  #1b4f72 ;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	width: 08%;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+	margin-left: 15%;
+	float: right;
+	top: 40px;
+	margin-left:47%;  
+}
+.div4{
+	float: right;
+	top: 40px;
+}
+
+.btn1:hover{
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+.btn2:hover{
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+//this is for my todo list 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  fon
+  font-family: 'Arial';
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+}
+.div11{
+	text-align: center;
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+
+}
+
+table .tab1{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ tr {
+     &:hover {
+      background: #f4f4f4;
+      
+      td {
+        color: #555;
+      }
+    }
+  }
+  th, td {
+    color: #000000;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    font-weight: 800;
+  }
+  th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    &.last {
+      border-right: none;
+    }
+  }
+
+
